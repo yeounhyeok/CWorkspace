@@ -2,10 +2,19 @@
 
 int main(){
 
-    char university[20] = "한성대학교";
-    char department[20] = "AI응용학과";
-    char name[10] = "여운혁";
-    int st_number = 2393008;
+    char university[20];
+    char department[20];
+    char name[10];
+    int st_number;
+
+    printf("학교 : ");
+    scanf("%s", university);
+    printf("학과 : ");
+    scanf("%s", department);
+    printf("이름 : ");
+    scanf("%s", name);
+    printf("학번 : ");
+    scanf("%d", &st_number);
 
     printf("------------------\n");
     printf("학교 : %s\n", university);
